@@ -1,7 +1,7 @@
 // vars/runPython.groovy
 def call(Map args = [:]) {
     // default args
-    String pythonCmd = args.get('pythonCmd', 'python3')
+    String pythonCmd = args.get('pythonCmd', 'python')
     String script = args.get('script', '')                 // path in workspace (Option A)
     String resource = args.get('resource', '')             // resource path inside library (Option B)
     String scriptArgs = args.get('scriptArgs', '')
